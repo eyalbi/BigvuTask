@@ -9,13 +9,6 @@ const path = require('path');
 //npm install aws-sdk
 // const AWS = require('aws-sdk');
 
-//
-// AWS.config.update({
-//     accessKeyId: "xxxxxxxxxxxxx",
-//     secretAccessKey: "xxxxxxxxxxxxxxxxxxxxxxxx",
-//     region: "regionCode"
-// });
-
 const takeScreenShot = async (url, formattedDateString) =>{
   // Launch headless Chrome
   
