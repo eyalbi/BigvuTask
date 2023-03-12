@@ -5,14 +5,15 @@ ffmpeg.setFfmpegPath(ffmpegPath);
 const fs = require('fs');
 const path = require('path');
 
-
+//AWS version 
+//npm install aws-sdk
 // const AWS = require('aws-sdk');
 
-
+//
 // AWS.config.update({
-//     accessKeyId: "AKIAXQKBQUN47KBC5GS5",
-//     secretAccessKey: "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",
-//     region: "us-east-2"
+//     accessKeyId: "xxxxxxxxxxxxx",
+//     secretAccessKey: "xxxxxxxxxxxxxxxxxxxxxxxx",
+//     region: "regionCode"
 // });
 
 const takeScreenShot = async (url, formattedDateString) =>{
@@ -125,7 +126,7 @@ exports.handler = async (event) => {
   }
  
   //AWS Version upload video to S3 
-  // const AWS = require('aws-sdk')
+
   // Upload video to S3
   // const s3 = new AWS.S3();
   // const s3Key = `videos/${Date.now()}.mp4`;
